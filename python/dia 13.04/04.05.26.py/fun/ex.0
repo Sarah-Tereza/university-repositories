@@ -1,0 +1,8 @@
+lista=['exercicios disponiveis:', ' calcular nota com a para media simples e p para ponderada:ex1',
+       'somar numeros entre os escolhidos:ex2', 'calcular o fatorial de um numero:ex3',
+       'elevar o primeiro numero ao segundo inserido:ex4','somar e elevar três numeros:ex5',
+       'dobrar o numero iserido:x6','verificar se um numero é positivo(1) ou negativo(-1):ex7',
+       'transformar Cº em fahrenheit:ex8', 'transformar Cº em kelvin:ex9',
+       'realizar operações matematicas com 2 numeros:ex10', 'verificar numeros primos:ex11']
+for x in lista:
+    print(lista)

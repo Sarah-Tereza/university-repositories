@@ -1,0 +1,11 @@
+i=0
+a=0
+idade=[]
+for n in range (30):
+   n=int(input('digite um numero:'))
+   idade.append(n)
+   i=i+n
+if n == max(idade):
+   a = a+1
+media= i/30
+print(media,i, a, max(idade), idade )

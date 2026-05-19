@@ -1,0 +1,24 @@
+texto = input('digite um texto:')
+print (type (texto))
+
+print(texto[2])
+for t in texto :
+    print(t)
+print(type(texto))
+print( texto[2])
+for t in texto :
+    if t =='a':
+        print('achei')
+'reste'
+lista=[]
+for k in range(10):
+    pergunta='s'
+    lista.append(float(input('digite um valor:')))
+while pergunta =='s':
+    x=float(input('digite o valor que dejesa encontrar:'))
+    for n in range(10): 
+        if lista[n] == x:
+            print(f'valor encontrado! posição{n}')
+    else:
+        print ('valor não encontrado!')
+        pergunta=input("dejesa continuar?")
